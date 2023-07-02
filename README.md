@@ -2,7 +2,7 @@
 KinTwin is a fork of [KinBP](https://github.com/DmNosachev/KinBP). It is a drop-in replacement of a controller and thumb cluster PCB boards for [Kinesis Contoured keyboards](https://deskthority.net/wiki/Kinesis_Contoured).
 
 ## Goal
-Replace stock firmware with open source firmware: [TMK](https://github.com/tmk/tmk_keyboard)
+Replace stock firmware with [QMK](https://docs.qmk.fm/#/) open source firmware
 
 ## Included PCBs
 
