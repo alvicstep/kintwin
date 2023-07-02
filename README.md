@@ -40,8 +40,8 @@ Replace stock firmware with [QMK](https://docs.qmk.fm/#/) open source firmware
 |3mm Blue LED Diodes (DC 3.0V-3.2V (IF=20mA) / 0.06 Watts / 2pin)    |    4     |<img src="images/leds.jpg" width="100"/>             |
 |430ohm (For DC 6-12V) 1/4 Watt Metal Film Resistors                 |    4     |<img src="images/resistors.jpg" width="100"/>        |
 |STM32F401 development board                                         |    1     |<img src="images/development-board.jpg" width="100"/>|
-|Diodes (1N4148 DO-35 IN4148) for thumb cluster PCB                  |    12    |<img src="images/diodes.jpg" width="100"/>           |
-|Keyboard switches for thumb cluster PCB                             |    12    |<img src="images/switches.jpg" width="100"/>         |
+|Diodes (1N4148 DO-35 IN4148) for thumb cluster PCBs                 |    12    |<img src="images/diodes.jpg" width="100"/>           |
+|Keyboard switches for thumb cluster PCBs                            |    12    |<img src="images/switches.jpg" width="100"/>         |
 |Controller board                                                    |    1     |<img src="images/controller.jpg" width="100" />      |
 
 ## BOM (for models KB500) 
