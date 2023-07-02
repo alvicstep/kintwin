@@ -23,9 +23,9 @@ It serves the same purpose as [KinT controller](https://github.com/kinx-project/
 |Keyboard Model                             |Top row PCBs|Keywell PCBs|Thumb cluster PCBs|
 |-------------------------------------------|------------|------------|------------------|
 |KB600 (Advantage2)                         |Yes         |Yes         |Yes               |
-|KB500 (Advantage)                          |Yes         |Yes         |No                |
-|KB13x (Essential, Classic, Professional) * |Yes         |Yes         |No                |
-|100/110/120 **                             |No          |No          |No                |
+|KB500 (Advantage)                          |Yes         |Yes         |No  *             |
+|KB13x (Essential, Classic, Professional)   |Yes         |Yes         |No  *             |
+|100/110/120 **                             |No          |No          |No  *             |
 
 \* These keyboards require custom thumb cluster PCBs which are provided in the repo\
 ** You are likely not going to find these keyboards in the wild. They are 20+ years old
@@ -33,31 +33,31 @@ It serves the same purpose as [KinT controller](https://github.com/kinx-project/
 
 ## BOM (for models KB600)
 
-|Name  |Quantity  |Image  |
-|---------|---------|---------|
-| 13-pin straight FPC connectors     |   6      |  ![connectors](/images/connectors.jpg)       |
-|3mm Blue LED Diodes (DC 3.0V-3.2V (IF=20mA) / 0.06 Watts / 2pin)    |    4     |    ![connectors](/images/leds.jpg)     |
-| 430ohm (For DC 6-12V) 1/4 Watt Metal Film Resistors     |    4     |   ![connectors](/images/resistors.jpg)        |
-|STM32F401 development board     |    1     |    ![connectors](/images/development-board.jpg)      |
-|Diodes (1N4148 DO-35 IN4148)     |    68     |    ![connectors](/images/diodes.jpg)      |
-|Keyboard switches    |    68     |    ![connectors](/images/switches.jpg)      |
-|Controller board    |    1     |   |
+|Name                                                                |Quantity  |Image  |
+|--------------------------------------------------------------------|----------|---------------------------------------------|
+|13-pin straight FPC connectors                                      |    6     |![connectors](/images/connectors.jpg)        |
+|3mm Blue LED Diodes (DC 3.0V-3.2V (IF=20mA) / 0.06 Watts / 2pin)    |    4     |![connectors](/images/leds.jpg)              |
+|430ohm (For DC 6-12V) 1/4 Watt Metal Film Resistors                 |    4     |![connectors](/images/resistors.jpg)         |
+|STM32F401 development board                                         |    1     |![connectors](/images/development-board.jpg) |
+|Diodes (1N4148 DO-35 IN4148)                                        |    68    |![connectors](/images/diodes.jpg)            |
+|Keyboard switches                                                   |    68    |![connectors](/images/switches.jpg)          |
+|Controller board                                                    |    1     |                                             |
 
 ## BOM (for models KB500) 
 The same as for model KB600, except for:
 
-|Name  |Quantity  |
-|---------|---------|
-| 13-pin straight FPC connectors     |   8      | 
-|Thumb cluster board    |    2    |   |
-|FPC flexible flat cables (FFC1.25-60mm)     |    2     | 
+|Name                                     |Quantity |
+|-----------------------------------------|---------|
+|13-pin straight FPC connectors           |    8    | 
+|Thumb cluster board                      |    2    |
+|FPC flexible flat cables (FFC1.25-60mm)  |    2    | 
 
 ## BOM (for models KB13x)
 The same as for model KB600, except for:
 
-|Name  |Quantity  |
-|---------|---------|
-| 13-pin straight FPC connectors     |   6      | 
-| 13-pin angled FPC connectors     |   2      |
-|Thumb cluster board    |    2    |   |
-|FPC flexible flat cables (FFC1.25-60mm)     |    2     | 
+|Name                                    |Quantity  |
+|----------------------------------------|----------|
+|13-pin straight FPC connectors          |    6     | 
+|13-pin angled FPC connectors            |    2     |
+|Thumb cluster board                     |    2     |
+|FPC flexible flat cables (FFC1.25-60mm) |    2     | 
