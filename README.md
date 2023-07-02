@@ -51,8 +51,7 @@ The same as for model KB600, except for:
 |Left thumb cluster board                 |    1    |<img src="images/left-thumb.jpg" width="100"/>      |
 |Right thumb cluster board                |    1    |<img src="images/right-thumb.jpg" width="100"/>     |
 |FPC flexible flat cables (FFC1.25-60mm)  |    2    |<img src="images/cables.jpg" width="100"/>          |
-|Diodes (1N4148 DO-35 IN4148) for 
-thumb cluster PCBs                        |    12   |<img src="images/diodes.jpg" width="100"/>          |
+|Diodes (1N4148 DO-35 IN4148) for thumb cluster PCBs|    12   |<img src="images/diodes.jpg" width="100"/>|
 |Keyboard switches for thumb cluster PCBs |    12   |<img src="images/switches.jpg" width="100"/>        |
 
 ## BOM (for models KB13x)
@@ -65,6 +64,5 @@ The same as for model KB600, except for:
 |Left thumb cluster board                 |    1    |<img src="images/left-thumb.jpg" width="100"/>       |
 |Right thumb cluster board                |    1    |<img src="images/right-thumb.jpg" width="100"/>      |
 |FPC flexible flat cables (FFC1.25-60mm)  |    2    |<img src="images/cables.jpg" width="100"/>           |
-|Diodes (1N4148 DO-35 IN4148) for 
-thumb cluster PCBs                        |    12   |<img src="images/diodes.jpg" width="100"/>           |
+|Diodes (1N4148 DO-35 IN4148) for thumb cluster PCBs|    12   |<img src="images/diodes.jpg" width="100"/> |
 |Keyboard switches for thumb cluster PCBs |    12   |<img src="images/switches.jpg" width="100"/>         |
