@@ -49,7 +49,8 @@ The same as for model KB600, except for:
 |Name                                     |Quantity |
 |-----------------------------------------|---------|
 |13-pin straight FPC connectors           |    8    | 
-|Thumb cluster board                      |    2    |
+|Left thumb cluster board                 |    1    |
+|Right thumb cluster board                |    1    |
 |FPC flexible flat cables (FFC1.25-60mm)  |    2    | 
 
 ## BOM (for models KB13x)
@@ -59,5 +60,6 @@ The same as for model KB600, except for:
 |----------------------------------------|----------|
 |13-pin straight FPC connectors          |    6     | 
 |13-pin angled FPC connectors            |    2     |
-|Thumb cluster board                     |    2     |
+|Left thumb cluster board                |    1     |
+|Right thumb cluster board               |    1     |
 |FPC flexible flat cables (FFC1.25-60mm) |    2     | 
