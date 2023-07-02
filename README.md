@@ -5,9 +5,9 @@ It serves the same purpose as [KinT controller](https://github.com/kinx-project/
 
 ## PCBs
 
-![KinTwin controller v1.0](/images/controller.jpg)
-![KinTwin left thumb v1.1](/images/left-thumb.jpg)
-![KinTwin right thumb v1.1](/images/right-thumb.jpg)
+<img src="images/controller.jpg" width="400"/>
+<img src="images/left-thumb.jpg" width="200"/>
+<img src="images/right-thumb.jpg" width="200"/>
 
 ## Comparison with KinT and KinBP
 - The controller board is a simplified version on KinBP board. It uses **WeAct Studio STM32F401** development board. KinT controller uses Teensy board. The price difference makes it very hard to justify the usage of Teensy development board these days
@@ -34,14 +34,14 @@ It serves the same purpose as [KinT controller](https://github.com/kinx-project/
 ## BOM (for models KB600)
 
 |Name                                                                |Quantity  |Image  |
-|--------------------------------------------------------------------|----------|---------------------------------------------|
-|13-pin straight FPC connectors                                      |    6     |![connectors](/images/connectors.jpg)        |
-|3mm Blue LED Diodes (DC 3.0V-3.2V (IF=20mA) / 0.06 Watts / 2pin)    |    4     |![connectors](/images/leds.jpg)              |
-|430ohm (For DC 6-12V) 1/4 Watt Metal Film Resistors                 |    4     |![connectors](/images/resistors.jpg)         |
-|STM32F401 development board                                         |    1     |![connectors](/images/development-board.jpg) |
-|Diodes (1N4148 DO-35 IN4148)                                        |    68    |![connectors](/images/diodes.jpg)            |
-|Keyboard switches                                                   |    68    |![connectors](/images/switches.jpg)          |
-|Controller board                                                    |    1     |                                             |
+|--------------------------------------------------------------------|----------|-------------------------------------------------|
+|13-pin straight FPC connectors                                      |    6     |<img src="images/connectors.jpg" width="100"/>       |
+|3mm Blue LED Diodes (DC 3.0V-3.2V (IF=20mA) / 0.06 Watts / 2pin)    |    4     |<img src="images/leds.jpg" width="100"/>             |
+|430ohm (For DC 6-12V) 1/4 Watt Metal Film Resistors                 |    4     |<img src="images/resistors.jpg" width="100"/>        |
+|STM32F401 development board                                         |    1     |<img src="images/development-board.jpg" width="100"/>|
+|Diodes (1N4148 DO-35 IN4148)                                        |    68    |<img src="images/diodes.jpg" width="100"/>           |
+|Keyboard switches                                                   |    68    |<img src="images/switches.jpg" width="100"/>         |
+|Controller board                                                    |    1     |<img src="images/controller.jpg" width="100" />      |
 
 ## BOM (for models KB500) 
 The same as for model KB600, except for:
