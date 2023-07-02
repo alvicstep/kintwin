@@ -6,9 +6,11 @@ Replace stock firmware with [QMK](https://docs.qmk.fm/#/) open source firmware
 
 ## Included PCBs
 
-<img src="images/controller.jpg" width="400"/>
-<img src="images/left-thumb.jpg" width="200"/>
-<img src="images/right-thumb.jpg" width="200"/>
+||
+|-|
+|<img src="images/controller.jpg" width="400"/>        
+|<img src="images/left-thumb.jpg" width="200"/> <img src="images/right-thumb.jpg" width="200"/>
+
 
 ## Comparison with KinBP
 - The controller board is a simplified version on KinBP board. It uses **WeAct Studio STM32F401** development board
