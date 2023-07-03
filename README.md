@@ -11,7 +11,7 @@ KinTwin is a fork of [KinBP](https://github.com/DmNosachev/KinBP). It is a drop-
 |-|
 |<img src="images/controller.jpg" width="400"/>        
 |<img src="images/left-thumb.jpg" width="200"/> <img src="images/right-thumb.jpg" width="200"/>
-
+|<img src="images/pcb-photo.jpg" width="400"/>  
 > **Warning**  
 > I have recently updated the design of thumb cluster PCB from v1.0 to v1.1 
 > The changes are cosmetic and should not affect functionality, but I did not order the new boards to be able to confirm that they still work.  
