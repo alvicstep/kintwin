@@ -34,15 +34,15 @@ Even if it might not be exactly what you are looking for, I am sure that some of
 
 #### Layout Layers
 
-<img src="../images/layout-base-layer.jpg" width="1000"/> 
-<img src="../images/layout-keypad-layer.jpg" width="1000"/> 
-<img src="../images/layout-numpad-layer.jpg" width="1000"/> 
+<img src="../images/layout-base-layer.jpg" width="800"/> 
+<img src="../images/layout-keypad-layer.jpg" width="800"/> 
+<img src="../images/layout-numpad-layer.jpg" width="800"/> 
 
 #### Notes
 - MO(1) - switch to keypad layer while key is being pressed
 - MO(2) - switch to numpad layer while key is being pressed
 - TO(0) - switch to base layer 
-- Rsft(Enter) - acts as an Enter key when pressed and released. Acts as a shift modifier in combination with outher keys
-- Bt - enter in DFU mode so a firmware can be flashed to the controller
+- Rsft(Enter) - acts as an Enter key when pressed and released. Acts as a shift modifier in combination with other keys
+- Bt - enter bootloader mode so a firmware can be flashed to the controller
 - Alt(Tab) - Alt + Tab
 - Ctrl(Tab) - Ctrl + Tab
