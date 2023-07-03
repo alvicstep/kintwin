@@ -76,3 +76,7 @@ KinTwin is a fork of [KinBP](https://github.com/DmNosachev/KinBP). It is a drop-
 |FPC flexible flat cables (FFC1.25-60mm)  |    2    |<img src="images/cables.jpg" width="100"/>           |
 |Diodes (1N4148 DO-35 IN4148) for thumb cluster PCBs|    12   |<img src="images/diodes.jpg" width="100"/> |
 |Keyboard switches for thumb cluster PCBs |    12   |<img src="images/switches.jpg" width="100"/>         |
+
+## QMK Related Topics
+
+Read about the custom QMK layout which I have designed [here](/layouts/readme.md)
