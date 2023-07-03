@@ -42,6 +42,7 @@ Even if it might not be exactly what you are looking for, I am sure that some of
 - MO(1) - switch to keypad layer while key is being pressed
 - MO(2) - switch to numpad layer while key is being pressed
 - TO(0) - switch to base layer 
+- TO(2) - switch to numpad layer 
 - Rsft(Enter) - acts as an Enter key when pressed and released. Acts as a shift modifier in combination with other keys
 - Bt - enter bootloader mode so a firmware can be flashed to the controller
 - Alt(Tab) - Alt + Tab
