@@ -1,13 +1,12 @@
 ## Custom Layout
-Contoured Kinesis keyboards belong to a relatively small group of keyboards that utilize thumb clusters. The keycap profiles of thumb cluster keys make it easy to press multiple keys simultaneously by a thumb finger. Co-locating CTRL, SHIFT and KEYPAD modifiers in the thumb cluster gives truly unique capabilities to these keyboards.
+Kinesis Contoured family of keyboards belong to a relatively small group of keyboards that utilize thumb clusters. The keycap profiles of thumb cluster keys make it easy to press multiple keys simultaneously by a thumb finger. Co-locating CTRL, SHIFT and KEYPAD modifiers in the thumb cluster gives truly unique capabilities to these keyboards.
 
 ### Software Developer Layout
-The **soft_dev** layout is optimized for software development on a Windows machine. It is a result of many years of daily usage, keeping what works and removing what does not. 
-Even if it might not be exactly what you are looking for, some of the ideas described below could be useful when designing a new layout.
+The **soft_dev** layout is optimized for software development on a Windows machine. It is a result of many years of daily usage. It is a great starting point for your own design.
 
 #### Layout Features
 - 3 layers: default layer, keypad layer, numpad layer
-- keypad layer allows for 2 finger operation (using the same hand) using **arrow** keys together with
+- keypad layer allows for 2 finger operation using **arrow** keys together with
     - **CTRL** and/or **SHIFT** modifiers OR
     - **HOME/END** keys OR
     - **PAGEUP/PAGEDOWN** keys.  
@@ -18,14 +17,11 @@ Even if it might not be exactly what you are looking for, some of the ideas desc
     - from a current caret position to the end of the line
     - multiple lines
     - multiple pages
-- executing  key combinations in a sequence can also be very beneficial. For example, executing "KEYPAD + O" and then "KEYPAD + SHIFT + U" selects the whole line of text in any text editor.
-- keypad layer allows accessing the following keys by moving one finger away from the home row 
-    - function keys (F1-F12)
-    - **ESC** key
-    - **CAPSLOCK** key
-- **KEYPAD** key is a "momentary" modifier key which is used to switch to the keypad layer while the key is being pressed. There are 2 KEYPAD keys which are ENTER/DELETE keys on Kinesis thumb cluster keyboards
-- **KEYPAD** key can also be used to access US ANSI Shifted Symbols instead of pressing a SHIFT key
-- **NUMPAD** "momentary" modifier key can be used to quickly switch to a numpad while typing alphanumeric strings
+- with little practice you will be able to string together different key combinations. For example, executing `KEYPAD + O` and then `KEYPAD + SHIFT + U` selects the whole line of text with barely any finger movement. The best part is that it works in any text editor!
+- keypad layer allows accessing **F1-F12** and **ESC** keys by moving only a single finger away from the home row, making it very fast and convenient
+- **KEYPAD** key can be used to access US ANSI Shifted Symbols instead of pressing a SHIFT key. This gives you two advantages: it makes KEYPAD key a "go to" key which is used in almost all operations unrelated to typing of letters. To understand the second advantage, compare pressing `SHIFT + 0` and `KEYPAD + 0` using the right hand
+- **NUMPAD** "momentary" modifier key can be used to quickly switch to a numeric pad while typing alphanumeric strings. In a stock Kinesis firmware you would have to switch to KEYPAD layer and then press NUMLOCK key which makes it unusable for this task
+- **NUMPAD** key in the right thumb cluster can be used to switch to a numeric pad for long numeric sequences
 
 #### Layout Layers
 
@@ -36,13 +32,18 @@ Even if it might not be exactly what you are looking for, some of the ideas desc
 #### Notes
 - MO(1) - switch to **KEYPAD** layer while key is being pressed
 - MO(2) - switch to **NUMPAD** layer while key is being pressed
-- TO(0) - switch to base layer 
+- TO(0) - switch to **BASE** layer 
 - TO(2) - switch to **NUMPAD** layer 
-- Rsft(Enter) - acts as an Enter key when pressed and released. Acts as a shift modifier in combination with other keys
+- Rsft(Enter) - acts as an ENTER key when pressed and released. Acts as a SHIFT modifier in combination with other keys
 - Bt - enter bootloader mode
 - Alt(Tab) - toggle between last two active applications
 - Ctrl(Tab) - toggle between last two active tabs
 
+
+### Differences From Stock
+- **{}[]** keys are moved to the left side of the keywell to be easily accessible
+- **-** and **+** keys are switched
+- **CAPS LOCK** key is moved to **KEYPAD** layer and is mapped to **DELETE** on **BASE** layer
 
 ### Shortcuts
 
