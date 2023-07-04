@@ -1,14 +1,9 @@
 ## Custom Layout
-Contoured Kinesis keyboards can be setup for a layout that is impossible to recreate on a keyboard lacking thumb clusters. The custom layout below attempts to take full advantage of thumb cluster keys by simultaneously pressing multiple modifiers with only two fingers.
+Contoured Kinesis keyboards belong to a relatively small group of keyboards that utilize thumb clusters. The keycap profiles of thumb cluster keys make it easy to press multiple keys simultaneously by a thumb finger. Co-locating CTRL, SHIFT and KEYPAD modifiers in the thumb cluster gives truly unique capabilities to these keyboards.
 
 ### Software Developer Layout
-The **soft_dev** layout is optimized for a software development on a Windows machine. It is a result of trial and error of TMK/QMK features and many years of daily usage. 
-Even if it might not be exactly what you are looking for, I am sure that some of the ideas could be useful when designing a new layout.
-
-#### Layout Considerations
-- **fast operations** - Contoured Kinesis keyboards have enough keys to avoid using such QMK features as "Leader Key" or "OneShot key"
-- **specific finger tasks** - some fingers are much better at certain tasks than others on Kinesis keyboards. For example, using little finger by repeatedly pressing a key is a much faster operation than using a thumb key. At the same time a thumb finger is perfect for pressing one or more modifier keys at the same time
-- **rarely used keys** - some keys are rarely used. Some key presses are hard to execute. It is a good idea to map rarely used keys to hard to press positions. For example, the hardest keys to press are by a little finger on lowest row, at least for me. TILDE\BACKTICK key is a good candidate for this
+The **soft_dev** layout is optimized for software development on a Windows machine. It is a result of many years of daily usage, keeping what works and removing what does not. 
+Even if it might not be exactly what you are looking for, some of the ideas described below could be useful when designing a new layout.
 
 #### Layout Features
 - 3 layers: default layer, keypad layer, numpad layer
@@ -19,12 +14,12 @@ Even if it might not be exactly what you are looking for, I am sure that some of
 - two finger operations can be achieved by holding up to 3 modifier keys (KEYPAD/SHIFT/CTRL) with a thumb finger and using index/middle/ring finger by pressing keywell keys. For example, you can fully control caret position and text selection of:  
     - each letter
     - each word
-    - from the current caret position to the begining of the line
-    - from the current caret position to the end of the line
+    - from a current caret position to the beginning of the line
+    - from a current caret position to the end of the line
     - multiple lines
     - multiple pages
-- combining key combinations together can also be very beneficial. For example, executing "KEYPAD + O" and then "KEYPAD + SHIFT + U" selects the whole line of text in any text editor
-- keypad layer also allows for the access of the following keys by moving a single finger from the home row 
+- executing  key combinations in a sequence can also be very beneficial. For example, executing "KEYPAD + O" and then "KEYPAD + SHIFT + U" selects the whole line of text in any text editor.
+- keypad layer allows accessing the following keys by moving one finger away from the home row 
     - function keys (F1-F12)
     - **ESC** key
     - **CAPSLOCK** key
@@ -34,16 +29,76 @@ Even if it might not be exactly what you are looking for, I am sure that some of
 
 #### Layout Layers
 
-<img src="../images/layout-base-layer.jpg" width="800"/> 
-<img src="../images/layout-keypad-layer.jpg" width="800"/> 
-<img src="../images/layout-numpad-layer.jpg" width="800"/> 
+<img src="https://i.imgur.com/86LCI3zh.jpg"> 
+<img src="https://i.imgur.com/Gv4WBw7h.jpg"/> 
+<img src="https://i.imgur.com/gKXMUI2h.jpg"/> 
 
 #### Notes
-- MO(1) - switch to keypad layer while key is being pressed
-- MO(2) - switch to numpad layer while key is being pressed
+- MO(1) - switch to **KEYPAD** layer while key is being pressed
+- MO(2) - switch to **NUMPAD** layer while key is being pressed
 - TO(0) - switch to base layer 
-- TO(2) - switch to numpad layer 
+- TO(2) - switch to **NUMPAD** layer 
 - Rsft(Enter) - acts as an Enter key when pressed and released. Acts as a shift modifier in combination with other keys
-- Bt - enter bootloader mode so a firmware can be flashed to the controller
-- Alt(Tab) - Alt + Tab
-- Ctrl(Tab) - Ctrl + Tab
+- Bt - enter bootloader mode
+- Alt(Tab) - toggle between last two active applications
+- Ctrl(Tab) - toggle between last two active tabs
+
+
+### Shortcuts
+
+
+|Shortcut             | Control Caret                         |
+|---------------------|---------------------------------------|
+|`KEYPAD + J`         | move caret one character left         | 
+|`KEYPAD + L`         | move caret one character right        | 
+|`KEYPAD + I`         | move caret one line up                | 
+|`KEYPAD + K`         | move caret one line down              | 
+|`KEYPAD + CTRL + J`  | move caret one word to the left       | 
+|`KEYPAD + CTRL + L`  | move caret one word to the right      | 
+|`KEYPAD + U`         | move caret to the start of the line   | 
+|`KEYPAD + O`         | move caret to the end of the line     | 
+|`KEYPAD + H`         | move caret one page up                | 
+|`KEYPAD + N`         | move caret one page down              | 
+
+
+|Shortcut             | Scroll Lock                           |
+|---------------------|---------------------------------------|
+|`KEYPAD + CTRL + I`  | scroll page up                        | 
+|`KEYPAD + CTRL + K`  | scroll page down                      | 
+
+
+|Shortcut                     | Select Text                   |
+|-----------------------------|-------------------------------|
+|`KEYPAD + CTRL + SHIFT + J`  | select one word to the left   | 
+|`KEYPAD + CTRL + SHIFT + L`  | select one word to the right  | 
+|`KEYPAD + CTRL + SHIFT + I`  | select one line up            | 
+|`KEYPAD + CTRL + SHIFT + K`  | select one line down          | 
+|`KEYPAD + SHIFT + H`         | select one page up            | 
+|`KEYPAD + SHIFT + N`         | select one page down          | 
+|`KEYPAD + CTRL + SHIFT + U`  | select from beginning of the file up to the caret position   | 
+|`KEYPAD + CTRL + SHIFT + O`  | select from caret position to the end of the file  | 
+
+
+|Shortcut             | US ANSI Shifted Symbols               |
+|---------------------|---------------------------------------|
+|`KEYPAD + -`         | _                                     | 
+|`KEYPAD + 1`         | !                                     | 
+|`KEYPAD + 2`         | @                                     | 
+|`KEYPAD + 3`         | #                                     | 
+|`KEYPAD + 4`         | $                                     | 
+|`KEYPAD + 5`         | %                                     | 
+|`KEYPAD + 6`         | ^                                     | 
+|`KEYPAD + 7`         | &                                     | 
+|`KEYPAD + 8`         | *                                     | 
+|`KEYPAD + 9`         | (                                     | 
+|`KEYPAD + 0`         | )                                     | 
+|`KEYPAD + =`         | +                                     | 
+|`KEYPAD + \`         | \|                                    | 
+|`KEYPAD + '`         | "                                     | 
+|`KEYPAD + ;`         | :                                     | 
+|`KEYPAD + /`         | ?                                     | 
+|`KEYPAD + [`         | {                                     | 
+|`KEYPAD + ]`         | }                                     | 
+|`KEYPAD + ,`         | <                                     | 
+|`KEYPAD + .`         | >                                     | 
+|`KEYPAD + BACKTICK`  | ~                                     | 
