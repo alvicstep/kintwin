@@ -14,7 +14,7 @@
 4. Compiling/flashing process is the same as for any other board. QMK documentation: https://docs.qmk.fm/#/newbs_getting_started
 	- download my fork of QMK (link above)
 	- install QMK MSYS in order to compile the firmware: https://msys.qmk.fm  The wizard will ask whether you want to dowload QMK. Reply "no" because you already have a forked repo.
-		You will then have to point MSYS to the directory where you cloned QML fork.
+		You will then have to point MSYS to the directory where you cloned QMK fork.
 		Run the following command in MSYS: `qmk config user.qmk_home=<QMK fork directory>`
 		A backslash must be escaped with another backslash in the path. Example: `qmk config user.qmk_home=C:\\git\\qmk_firmware` 
 		
