@@ -1,2 +1,1 @@
->**Note**
->testing note
+> **Note**: testing note
